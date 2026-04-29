@@ -6,6 +6,14 @@ It demonstrates how core service management capabilities can be designed and imp
 
 ---
 
+## 🚀 Live Demo
+
+👉 https://vlastilena.github.io/itsm-workflow-system
+
+> The frontend is deployed via GitHub Pages and runs directly in the browser.
+
+---
+
 ## 🎯 Business Context
 
 In enterprise environments, IT service platforms are used to:
@@ -25,6 +33,7 @@ This project simulates these capabilities in a simplified but structured way.
 - Full lifecycle ticket management
 - Status flow: New → In Progress → Resolved → Closed
 - Priority-based handling and assignment logic
+- Interactive actions (Start, Resolve, Close)
 
 ### 2. Workflow Automation Engine
 - Rule-based processing system (Business Rules simulation)
@@ -37,12 +46,12 @@ This project simulates these capabilities in a simplified but structured way.
 - Agents: manage assigned workload
 - Admins: full system access
 
-### 4. Knowledge Base
+### 4. Knowledge Base (planned)
 - Articles linked to incidents
 - Searchable knowledge repository
 - Suggested solutions for recurring issues
 
-### 5. API Layer
+### 5. API Layer (planned backend integration)
 - RESTful backend architecture
 - Structured endpoints for ITSM entities
 - Separation of concerns (controllers/services/rules)
@@ -60,10 +69,10 @@ This project simulates these capabilities in a simplified but structured way.
 
 ## 🏗️ Tech Stack
 
-- Backend: Node.js (Express)
 - Frontend: React
+- Backend: Node.js (Express) *(planned/optional stage)*
 - Architecture: Modular / layered design
-- Data: JSON / optional PostgreSQL
+- Deployment: GitHub Pages
 
 ---
 
@@ -73,15 +82,21 @@ This project emphasizes:
 - ITSM domain understanding
 - Workflow automation logic
 - Platform-style thinking (similar to ServiceNow)
-- Backend system design
+- Frontend system design
 - Practical implementation of business rules
+
+---
+
+## 📸 UI Preview
+
+*(Add screenshots here later — highly recommended for portfolio strength)*
 
 ---
 
 ## 📌 Future Enhancements
 
-- SLA tracking system
-- Notification engine
-- Dashboard analytics
+- SLA tracking system (critical for ITSM maturity)
+- Notification engine (email / alerts simulation)
+- Dashboard analytics (KPIs, incident trends)
 - External system integration (mock REST APIs)
-- UI improvements for service portal experience
+- Improved Service Portal UI experience
