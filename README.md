@@ -1,141 +1,118 @@
-# Enterprise ITSM Workflow Platform
+# 🧩 Enterprise ITSM Workflow Platform
 
-This project is a ServiceNow-inspired IT Service Management (ITSM) system built as a full-stack portfolio application.
+A ServiceNow-inspired IT Service Management (ITSM) system built with React and deployed on Vercel.
 
-It demonstrates how enterprise service platforms manage incidents, automate workflows, and provide operational visibility through dashboards.
+This project simulates enterprise-level incident management, workflow automation, and operational dashboards.
 
 ---
 
 ## 🌐 Live Demo
 
-👉 https://vlastilena.github.io/itsm-workflow-system
-
-> The frontend is deployed via GitHub Pages and runs directly in the browser.
+👉 https://itsm-workflow-system.vercel.app/
 
 ---
 
 ## 📸 Screenshots
 
 ### Dashboard Overview
-
 ![Dashboard](frontend/screenshots/dashboard.png)
 
 ### Filtering Incidents
-
 ![Filters](frontend/screenshots/filter.png)
 
 ### Workflow Actions
-
 ![Workflow](frontend/screenshots/workflow.png)
 
 ---
 
 ## 🎯 Business Context
 
-In enterprise environments, ITSM platforms are used to:
+ITSM platforms are used in enterprises to:
+- Manage incidents and service requests
+- Track operational issues
+- Automate workflows
+- Improve service efficiency
 
-* Manage incidents and service requests
-* Automate support workflows
-* Track operational performance (KPIs)
-* Enforce structured lifecycle processes
-* Improve service efficiency
-
-This project simulates these capabilities in a simplified but structured way.
+This project simulates a simplified version of these processes.
 
 ---
 
 ## ⚙️ Core Features
 
 ### 🧩 Incident Management
-
-* Create new incidents
-* Track lifecycle:
+- Create incidents
+- Track lifecycle:
   **New → In Progress → Resolved → Closed**
-* Structured incident IDs (INC0001 format)
+- Status-based actions (Start, Resolve, Close)
 
 ---
 
-### 📊 Dashboard & KPI Tracking
-
-* Total incidents
-* Status-based counters
-* Real-time updates
+### 📊 Dashboard KPI
+- Total incidents counter
+- Status breakdown (New / In Progress / Resolved / Closed)
+- Real-time updates
 
 ---
 
-### 🔄 Workflow Engine (Frontend Simulation)
-
-* Status transition buttons:
-
-  * Start
-  * Resolve
-  * Close
-* Conditional UI logic based on state
+### 🔄 Workflow Simulation
+- Button-based state transitions
+- Conditional UI actions per status
 
 ---
 
 ### 🔍 Filtering System
-
-* Filter incidents by status:
-
-  * All / New / In Progress / Resolved / Closed
+- Filter by incident status
+- Quick view of system state
 
 ---
 
-### 🎨 UI (ServiceNow-style)
-
-* KPI cards (SaaS-style)
-* Status badges (color-coded)
-* Interactive table
-* Clean enterprise layout
+### 🎨 UI Design
+- SaaS-style dashboard layout
+- Status color indicators
+- Clean enterprise interface
 
 ---
 
-## 🧠 System Design
+## 🧠 Architecture
 
-* Component-based React architecture
-* State-driven UI (useState)
-* Separation of concerns (UI vs logic)
-* Workflow-driven interaction model
+- React (functional components)
+- useState for state management
+- Component-driven UI
+- Simple workflow logic simulation
 
 ---
 
 ## 🏗️ Tech Stack
 
-* Frontend: React
-* Styling: Custom CSS (SaaS-style UI)
-* Deployment: GitHub Pages
+- React (Create React App)
+- CSS (custom styling)
+- Vercel (deployment)
+- GitHub (CI/CD)
 
 ---
 
-## 🚀 Engineering Highlights
+## 🚀 Deployment
 
-This project demonstrates:
-
-* ITSM domain understanding
-* Workflow lifecycle modeling
-* UI design inspired by enterprise platforms
-* State management in React
-* Structured data handling
+- GitHub → Vercel CI/CD pipeline
+- Automatic deployment on push to `main`
 
 ---
 
 ## 📌 Future Improvements
 
-* Backend (Node.js / Express API)
-* Persistent storage (database)
-* SLA tracking system
-* Authentication & roles (ACL)
-* Notifications system
-* Advanced dashboard analytics
+- Backend API (Node.js / Express)
+- Database (PostgreSQL / MongoDB)
+- Authentication (roles: admin / agent / user)
+- SLA tracking system
+- Notifications engine
+- Advanced analytics dashboard
 
 ---
 
-## 💼 Portfolio Note
+## 💼 Portfolio Value
 
-This project is designed to showcase practical understanding of:
-
-* ITSM systems (like ServiceNow)
-* Workflow-driven applications
-* Enterprise UI patterns
-* Frontend architecture in React
+This project demonstrates:
+- Understanding of ITSM systems (ServiceNow-like logic)
+- Frontend architecture in React
+- Workflow automation concepts
+- Deployment & CI/CD pipeline setup
