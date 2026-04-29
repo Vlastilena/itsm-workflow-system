@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/itsm-workflow-system/static/css/main.e6c13ad2.css",
+    "main.js": "/itsm-workflow-system/static/js/main.b2f381b0.js",
+    "static/js/453.825386d9.chunk.js": "/itsm-workflow-system/static/js/453.825386d9.chunk.js",
+    "index.html": "/itsm-workflow-system/index.html",
+    "main.e6c13ad2.css.map": "/itsm-workflow-system/static/css/main.e6c13ad2.css.map",
+    "main.b2f381b0.js.map": "/itsm-workflow-system/static/js/main.b2f381b0.js.map",
+    "453.825386d9.chunk.js.map": "/itsm-workflow-system/static/js/453.825386d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b2f381b0.js"
+  ]
+}
