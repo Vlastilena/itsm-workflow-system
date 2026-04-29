@@ -1,12 +1,12 @@
 # Enterprise ITSM Workflow Platform
 
-This project is an enterprise-style IT Service Management (ITSM) system inspired by platforms such as ServiceNow.
+This project is a ServiceNow-inspired IT Service Management (ITSM) system built as a full-stack portfolio application.
 
-It demonstrates how core service management capabilities can be designed and implemented using a custom full-stack architecture, focusing on workflow automation, data modeling, and role-based access control.
+It demonstrates how enterprise service platforms manage incidents, automate workflows, and provide operational visibility through dashboards.
 
 ---
 
-## 🚀 Live Demo
+## 🌐 Live Demo
 
 👉 https://vlastilena.github.io/itsm-workflow-system
 
@@ -14,89 +14,128 @@ It demonstrates how core service management capabilities can be designed and imp
 
 ---
 
+## 📸 Screenshots
+
+### Dashboard Overview
+
+![Dashboard](frontend/screenshots/dashboard.png)
+
+### Filtering Incidents
+
+![Filters](frontend/screenshots/filter.png)
+
+### Workflow Actions
+
+![Workflow](frontend/screenshots/workflow.png)
+
+---
+
 ## 🎯 Business Context
 
-In enterprise environments, IT service platforms are used to:
-- Manage incidents and service requests
-- Automate support workflows
-- Maintain knowledge base for self-service
-- Enforce access control and governance rules
-- Improve operational efficiency through automation
+In enterprise environments, ITSM platforms are used to:
+
+* Manage incidents and service requests
+* Automate support workflows
+* Track operational performance (KPIs)
+* Enforce structured lifecycle processes
+* Improve service efficiency
 
 This project simulates these capabilities in a simplified but structured way.
 
 ---
 
-## ⚙️ Core Capabilities
+## ⚙️ Core Features
 
-### 1. Incident & Request Management
-- Full lifecycle ticket management
-- Status flow: New → In Progress → Resolved → Closed
-- Priority-based handling and assignment logic
-- Interactive actions (Start, Resolve, Close)
+### 🧩 Incident Management
 
-### 2. Workflow Automation Engine
-- Rule-based processing system (Business Rules simulation)
-- Auto-assignment of tickets
-- Escalation for overdue incidents
-- Auto-close logic for resolved items
-
-### 3. Role-Based Access Control (ACL)
-- Users: manage own tickets only
-- Agents: manage assigned workload
-- Admins: full system access
-
-### 4. Knowledge Base (planned)
-- Articles linked to incidents
-- Searchable knowledge repository
-- Suggested solutions for recurring issues
-
-### 5. API Layer (planned backend integration)
-- RESTful backend architecture
-- Structured endpoints for ITSM entities
-- Separation of concerns (controllers/services/rules)
+* Create new incidents
+* Track lifecycle:
+  **New → In Progress → Resolved → Closed**
+* Structured incident IDs (INC0001 format)
 
 ---
 
-## 🧠 System Design Principles
+### 📊 Dashboard & KPI Tracking
 
-- Modular architecture (service-oriented structure)
-- Separation of business logic and data access
-- Rule-driven automation model
-- Enterprise-inspired data modeling
+* Total incidents
+* Status-based counters
+* Real-time updates
+
+---
+
+### 🔄 Workflow Engine (Frontend Simulation)
+
+* Status transition buttons:
+
+  * Start
+  * Resolve
+  * Close
+* Conditional UI logic based on state
+
+---
+
+### 🔍 Filtering System
+
+* Filter incidents by status:
+
+  * All / New / In Progress / Resolved / Closed
+
+---
+
+### 🎨 UI (ServiceNow-style)
+
+* KPI cards (SaaS-style)
+* Status badges (color-coded)
+* Interactive table
+* Clean enterprise layout
+
+---
+
+## 🧠 System Design
+
+* Component-based React architecture
+* State-driven UI (useState)
+* Separation of concerns (UI vs logic)
+* Workflow-driven interaction model
 
 ---
 
 ## 🏗️ Tech Stack
 
-- Frontend: React
-- Backend: Node.js (Express) *(planned/optional stage)*
-- Architecture: Modular / layered design
-- Deployment: GitHub Pages
+* Frontend: React
+* Styling: Custom CSS (SaaS-style UI)
+* Deployment: GitHub Pages
 
 ---
 
-## 🚀 Engineering Focus
+## 🚀 Engineering Highlights
 
-This project emphasizes:
-- ITSM domain understanding
-- Workflow automation logic
-- Platform-style thinking (similar to ServiceNow)
-- Frontend system design
-- Practical implementation of business rules
+This project demonstrates:
 
----
-
-## 📸 UI Preview
-
-*(Add screenshots here later — highly recommended for portfolio strength)*
+* ITSM domain understanding
+* Workflow lifecycle modeling
+* UI design inspired by enterprise platforms
+* State management in React
+* Structured data handling
 
 ---
 
-## 📌 Future Enhancements
+## 📌 Future Improvements
 
-- SLA tracking system (critical for ITSM maturity)
-- Notification engine (email / alerts simulation)
-- Dashboard analytics (KPIs, incident trends)
-- External system integration (mock REST APIs)
-- Improved Service Portal UI experience
+* Backend (Node.js / Express API)
+* Persistent storage (database)
+* SLA tracking system
+* Authentication & roles (ACL)
+* Notifications system
+* Advanced dashboard analytics
+
+---
+
+## 💼 Portfolio Note
+
+This project is designed to showcase practical understanding of:
+
+* ITSM systems (like ServiceNow)
+* Workflow-driven applications
+* Enterprise UI patterns
+* Frontend architecture in React
